@@ -1,0 +1,145 @@
+html
+{
+scroll-behavior: smooth;
+}
+body
+{
+margin: 0px;
+padding: 0px;
+background-color: #F0544F;
+scroll-behavior: smooth;
+overflow: hidden;
+}
+ul
+{
+list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+/* nav */
+#menu li a
+{
+    color: #D81E5B;
+    font-weight: 900;
+}
+nav
+{
+--customcolor:#4A525A;
+/* above is custom variable creation */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+position: fixed;
+ background-color: var(--customcolor); /*using the custom varaible */
+right: 0px;
+left: 0px;
+top: 0px;
+width: 100%;
+box-shadow: 15px 15px 10px #331832;
+z-index: 10;
+height: 40px;
+}
+nav ul
+{
+display: flex;
+}
+nav ul li a
+{
+font-family: 'Gill Sans', sans-serif;
+padding: 0px 20px;
+height: 4%;
+font-size: 2rem;
+color:white;
+letter-spacing: 1px;
+margin:5px;
+margin: 0%;
+line-height: 20px;
+font-weight: bolder;
+text-transform: uppercase;
+transition: 0.7s;
+}
+nav ul li a:hover
+{
+border-bottom: 2px solid black;
+box-shadow: 7px 10px 10px rgb(0, 255, 0); 
+background-color:cyan ;
+}
+/* header */
+#header #land-page
+{
+color: white;
+}
+#header
+{
+width: 100%;
+height: 400px;
+}
+#land-page
+{
+margin-top: 1.3%;
+width:100%;
+display: flex;
+justify-content: space-between;
+}
+#leftdivlandpage h1
+{
+color: white;
+font-size: 3rem;
+margin-left: 30px;
+font-family:'Gill Sans', sans-serif;
+font-weight: 900;
+line-height: 20px;
+transition: 0.5s;
+}
+#leftdivlandpage h1:hover
+{text-shadow: 15px 15px 20px rgb(0, 255, 0);
+    color: yellow;
+}
+
+#leftdivlandpage p
+{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', sans-serif;
+    font-weight: bolder;
+    color: #FDF0D5;
+}
+#land-page #leftdivlandpage #connect 
+{
+color: white;
+margin-left: 30px;
+padding: 10px;
+background-color: blueviolet;
+border-radius: 10px;
+font-family: 'Gill Sans' sans-serif;
+font-weight: bold;
+font-size: 2rem;
+width: fit-content;
+transition: 0.4s;
+}
+#land-page #leftdivlandpage #connect:hover
+{
+box-shadow: 15px 15px 20px rgb(0, 255, 0) ;
+text-shadow: 15px 15px 20px rgb(0, 255, 0);
+    color: yellow;
+    background-color: black;
+}
+.ficons
+{
+    font-size: 2rem;
+    padding :10px;
+    margin: 10px;
+}
+#key
+{
+    color: black;
+    transition: 0.4s;
+}
+#key:hover
+{
+    color: rgb(0, 255, 0);
+text-shadow: 5px 5px 6px #00ffb7;
+
+}
